@@ -1,0 +1,283 @@
+`/****
+ * Filename: github-api.css
+ * Author: Aress Software
+ * Plugin: Github Api
+ * Location: /css/github-api.css
+ ****/
+.activity ul{padding-left:0;}
+.activity ul li.membersList{
+	list-style:none;
+	display:block;
+	margin-left:0;
+	padding:15px;
+	background:#f8f8f8;
+	margin-top:10px;
+	padding-left:90px;
+	background-image:;
+	position:relative;
+}
+.activity ul li.membersList:first-child{
+	border-top:0px;
+	margin-top:0px;
+}
+.members_profile{
+	background: none repeat scroll 0 0 #fff;
+	border-radius: 50%;
+	border:5px solid #f7f7f7;
+	display: block;
+	float: left;
+	height: 60px;
+	position: absolute;
+	width: 60px;
+	left: 18px;
+	top: 50%;
+	margin-top: -30px;
+	overflow:hidden;
+}
+.github_username_popup{
+	padding:15px;
+	position:fixed;
+	top:50%;
+	background-color:#fff;
+	border:2px solid #fff;
+	border-radius:3px;
+	width:450px;
+	height:auto;
+	left:50%;
+	margin:0 auto;
+	margin-top:-50px;
+	margin-left:-225px;
+	z-index:1000000;
+	display:block;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.5);
+	-o-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.5);
+}
+.overlay{
+	z-index:99;
+	left:0;
+	top:0;
+	position:fixed;
+	height:100%;
+	width:100%;
+	background-color:rgba(0, 0, 0, 0.5);
+	display:block;
+}
+.github_username_popup input[type="text"]{
+	background: none repeat scroll 0 0 #f7f7f7;
+	border: 1px solid #dcdcdc;
+}
+.github_username_popup input[type="button"]{
+	background: #ccc !important;
+	box-shadow: none;
+	border: 0;
+	color: #fff !important;
+	float:left;
+	width:42%;
+}
+#github_username_error{color:red;}
+.parentClass{width:90%;float:left;padding:5px;}
+.labelClass{width:40%;float:left;text-align:right;padding:5px;}
+.inputDiv{width:55%;float:left;padding:5px;}
+.profile h3{
+	margin:0;
+	margin-bottom:10px;
+}
+.profile ul.repoUL{padding-left:0;}
+.profile ul.repoUL li{
+	list-style:none;
+	display:block;
+	margin-left:0;
+	padding:3px 0;
+	border-top:1px solid #ccc;	
+}
+.profile ul.repoUL li:first-child{border-top:0px;}
+
+.gitDetLeftPannel{width:80%;float:left;}
+.gitDetRightPannel{width:20%;float:left;border-left:1px solid #cccccc;}
+.githubNavigation{list-style-type:none;float:left;}
+.repositoryTitle{width:100%;float:left;}
+h2.gitTitle{width:60%;float:left;padding:5px;margin:0;}
+.titleRightSection{width:40%;float:left; margin-top:2px;}
+
+.externalLinks ul { margin:0px; padding:0px; float:right;}
+.externalLinks ul li {  height:30px;border-radius:2px; border-shadow:1px; float:left;  list-style:none;  display:inline-block; margin-right:10px!important;}
+
+.externalLinks ul li a.externalLinks-button {     
+		-moz-user-select: none;
+    background-color: #eeeeee;
+    background-image: linear-gradient(#fcfcfc, #eee);
+    background-repeat: repeat-x;
+    border: 1px solid #d5d5d5!important;
+    border-radius: 3px;
+    color: #666!important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+		float:left;
+    padding: 0 10px!important;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+    vertical-align: middle;
+    white-space: nowrap;
+		margin:0!important;
+		
+		 }
+
+.externalLinks ul li a.externalLinks-button:hover {  
+	 background-color: #dddddd;
+    background-image: linear-gradient(#eee, #ddd);
+    background-repeat: repeat-x;
+    border-color: #ccc;
+    text-decoration: none;}
+.externalLinks ul li a.externalLinks-count {    
+	 -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-bottom-right-radius: 3px;
+    border-color: #ddd #ddd #ddd -moz-use-text-color!important;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-top-right-radius: 3px;
+    border-width: 1px 1px 1px 0!important;
+      color: #666!important;
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 0 7px!important;
+    vertical-align: middle;
+		margin:0!important;
+
+		 }
+
+.stats-wrapper { width:98%; float:left;   
+  border: 1px solid #ddd!important;
+    border-radius: 3px;
+    box-shadow: none;
+		margin-right:2%;
+		
+		}
+.stats-wrapper li { width:25%; text-align:center;}
+.stats-wrapper li a strong { margin-right:5px; color:#666!important;}
+.activity ul{padding-left:0;}
+.activity ul li.membersList{
+	list-style:none;
+	display:block;
+	margin-left:0;
+	padding:15px;
+	background:#f8f8f8;
+	margin-top:10px;
+	padding-left:90px;
+	background-image:;
+	position:relative;
+}
+.activity ul li.membersList:first-child{
+	border-top:0px;
+	margin-top:0px;
+}
+.members_profile{
+	background: none repeat scroll 0 0 #fff;
+	border-radius: 50%;
+	border:5px solid #f7f7f7;
+	display: block;
+	float: left;
+	height: 60px;
+	position: absolute;
+	width: 60px;
+	left: 18px;
+	top: 50%;
+	margin-top: -30px;
+	overflow:hidden;
+}
+.tabcontent-outer { width:98%; float:left; margin:20px 2% 0 0;}
+.tabcontent-outer ul.tabs { border-bottom: 1px solid #ddd!important; width:100%; float:left;}
+.tabcontent-outer ul.tabs a {  -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent transparent;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    color: #666;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+   /* padding: 8px 12px 7px!important;*/
+	padding: 18px 0!important;
+    text-decoration: none;
+		 }
+.tabcontent-outer ul.tabs a.selected { 
+		background-color: #fff!important;
+   /* border-color: #ddd!important;*/
+	border-color: #f2f2f2 !important;
+    border-radius: 3px 3px 0 0!important;
+		border-bottom:1px solid #fff!important;
+   /* color: #333!important;*/
+	color: #fd7e2d!important;
+	 margin-left:0!important;} 
+.tabcontent-outer ul.tabs  li { display:inline-block!important; margin:0 0 -1px 0!important;}	 	 
+
+.tabs-content { width:100%; float:left;} 
+.tabs-content .activity { width:100%; float:left;}
+.tabs-content .activity ul li.membersList { width:100%!important; margin-bottom:10px!important;}
+.tabs-content .activity ul li.membersList a { margin-left:0px!important; display:inline-block!important;  color: #367bb7!important; padding-top:0!important; padding-bottom:0px!important;}
+.githubNavigation .navtext { float:left; display:inline-block; width:80%!important; text-align:left;}
+.githubNavigation .count { float:right; position:relative; background:#eee!important; width:25%!important; padding:3px!important; border-radius:25px!important; font-weight:bold!important;}
+.pointer {cursor:pointer}
+.activity-header p a{margin:0px!important;/*color: #367bb7!important;*/ color: #ff7e2e!important;}
+.activity-header p{margin: 5px 0!important;}
+#panel3 li{border-bottom: 1px solid #ddd !important;}
+
+li.loadmore{
+font-size: 11px;
+    margin: 15px auto;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+	list-style-type:none!important;
+		 
+}
+li.loadmore a{
+color: #bbbbbb;
+}
+li.loadmore a:before {
+    content: "+";
+    font-size: 120%;
+    margin-right: 5px;
+}
+
+.group-header .view-more-btn:hover {
+    background-color: #fff;
+    box-shadow: 0 2px 0 0 rgba(119, 119, 119, 0.3);
+    color: #00b9f7;
+    text-decoration: none;
+}
+
+.group-charter h3 {
+    color: #808080 !important;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 20px 0;
+    min-height: 65px;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.company-outer h3 {
+    color: #808080 !important;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 20px 0;
+    min-height: 65px;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
+#whats-new-avatar > a{display:block;}
